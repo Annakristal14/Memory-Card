@@ -21,7 +21,7 @@ function shuffle(array) {
 }
 
 function createBoard() {
-    const gameBoard = document.getElementById('.game-board');
+const gameBoard = document.querySelector('.game-board');
     shuffle(cards);
     cards.forEach((card) => {
         const cardElement = document.createElement('div');
